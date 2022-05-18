@@ -39,6 +39,18 @@ body {
     height: 40vh;
     border-radius: 16px;
     background-color: var(--darkgrayishblue);
+    animation: ani 0.5s 0s ease-in-out forwards;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 0;
+        transform: translateY(-36px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 #advice-header {

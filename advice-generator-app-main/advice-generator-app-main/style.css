@@ -41,7 +41,7 @@ body {
     background-color: var(--darkgrayishblue);
 }
 
-.advice-header {
+#advice-header {
     height: 20%;
     display: flex;
     justify-content: center;
@@ -50,9 +50,13 @@ body {
     color: var(--primaryGreen);
 }
 
-.quote {
+#quote {
     font-size: 28px;
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: var(--primaryCyan);
 }
 
@@ -80,6 +84,11 @@ body {
     align-items: center;
     border-radius: 50%;
     background-color: var(--primaryGreen);
+}
+
+.dice-container:hover {
+    box-shadow: 0px 0px 36px var(--primaryGreen);
+    cursor: pointer;
 }
 
 .dice-container img {
